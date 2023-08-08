@@ -1,0 +1,32 @@
+/* Apply styles to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+th{
+background-color: #f2f2f2;
+}
+.green-text{
+  color: green;
+}
+.red-text{
+  color: red;
+}
+
+.badge-PASS{
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+
+.badge-FAIL{
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
